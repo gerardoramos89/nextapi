@@ -5,7 +5,7 @@ import withReactContent from "sweetalert2-react-content";
 
 import { useRouter } from "next/navigation";
 
-const uri = "http://localhost:3000/api/uploadexcel";
+const uri = "http://nextapi-mu.vercel.app/api/uploadexcel";
 
 const BtnDeleteCVS = ({ id }) => {
   const router = useRouter();

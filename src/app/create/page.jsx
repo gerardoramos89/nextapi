@@ -1,7 +1,7 @@
 "use client";
 import Form from "@/components/Form";
 import { useRouter } from "next/navigation";
-const uri = "http://localhost:3000/api/student";
+const uri = "http://nextapi-mu.vercel.app/api/student";
 
 const Create = () => {
   const router = useRouter();
